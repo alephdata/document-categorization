@@ -1,0 +1,44 @@
+config:
+one main config file
+dict for VGG, Alex within config
+
+see branch custom-python-package
+
+replicate typer cli from preprocessing
+init file in each submodule for the library to see
+in src: init folder that selects which modules user should use. 
+
+main.py in feature extraction: feature_extraction.py
+
+probably no cli at module-level. there all functions which end user can use. recipes, which bundle several functions
+
+streamlit: in case we want a gui or present something (e.g. for user selecting from config)
+
+everything should be in functions, because otherwise will be called via init
+
+error logging
+
+
+## Build a tool that partner can use.
+
+Packaging:
+- plan the functionalities
+- create the CLI
+
+Testing
+- write the tests (focus on preprocessing, importing data, output of transfer_learning)
+
+## Assessing the model quality
+
+Analysis:
+- run with new data from Steve, with company register from Chile/Diego
+- see which categories don't work yet (confusion matrix)
+- use tf-explain to see which features are highlighted
+- download sample image data from the web for testing
+
+## Second feature
+
+Goal:
+- build a functional notebook on the model 
+- define empty functions/CLI tool
+

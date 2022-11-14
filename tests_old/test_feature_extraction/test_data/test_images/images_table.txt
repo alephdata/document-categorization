@@ -1,0 +1,5 @@
+Cat03.jpg 0
+Nature.jpeg 1
+No_file.jpg 2
+incorrect_format.txt 2
+Red_Kitten_01.jpg 0
